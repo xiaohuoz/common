@@ -48,7 +48,9 @@
 	`var method = new Method();
 	method.showName().showAge();`
 #第二章
-##tip1：安全创建对象
+##tip：闭包实现静态私有变量和私有方法
+	
+##tip2：安全创建对象
 	`非安全
 	var Book = function(title,time,type){
 		this.title = title;
